@@ -1,13 +1,13 @@
 #include<stdio.h>
 int main()
 {
-long long n;
+long long a;
 int count=0;
 printf("enter an integer:");
-scanf("%11d",&n);
-while(n!=0)
+scanf("%11d",&a);
+while(a!=0)
 {
-n/=10;
+a/=10;
 ++count;
 }
 printf("number of digits:%d",count);
